@@ -125,7 +125,7 @@ uint16_t perform_LDXVX(char *operand, int return_mask)
   return return_mask | (vx << 8);
 }
 
-// ... (include your full assemble_instructions function here without changes)
+
 uint16_t assemble_instructions(Instruction *instr)
 {
 
