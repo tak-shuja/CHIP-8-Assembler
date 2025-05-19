@@ -31,13 +31,13 @@ int main(int argc, char **argv)
   {
     Instruction instruction = instructions[i];
     // if (instruction.mnemonic[0] != 0)
-    printf("0x%03X \t %s \t %s \t %s \t %s\n",
+    printf("0x%03X \t %s \t %s \t %s \t %s \t %s\n",
            instruction.address,
            instruction.label[0] ? instruction.label : "-",
            instruction.mnemonic[0] ? instruction.mnemonic : "-",
            instruction.operand1[0] ? instruction.operand1 : "-",
            instruction.operand2[0] ? instruction.operand2 : "-",
-           instruction.operand3[0] ? instruction.operand3 : "-");
+           instruction.operand3[0] ? instruction.operand3 : " ");
   }
 
   printf("Compiled_instructions: \n");
