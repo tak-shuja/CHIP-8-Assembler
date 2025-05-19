@@ -91,4 +91,4 @@ Contributions, suggestions, and feedback are welcome! Feel free to open issues o
 ---
 
 Made with passion by Shuja Ahmad Tak
-[GitHub](https://github.com/tak-shuja/CHIP-8-Emulator.git)
+[GitHub](https://github.com/tak-shuja/)
